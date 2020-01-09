@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='title'>{{time}}</view>
+</view>
+<view>
+  <image class='goodsImage' src='{{curGoodsInfo.image}}'></image>
+  <view class='seeView'>已有 <text style='color:blue;'>{{curGoodsInfo.clickcount}}</text> 人查看过</view>
+  <view class='MainView'>{{curGoodsInfo.description}}  </view>
+  <view>
+    <view class='MainView'>
+      <text>原价：</text>
+      <text style='text-decoration:line-through;'>{{curGoodsInfo.oldprice}}</text>
+      <text style='margin-left:40px;'>
+      <text>现价：</text>
+        <text style='color:red;'>{{curGoodsInfo.price}}</text>
+      </text>
+    </view>
+    <view class='MainView'>
+      <text style='color:blue;'>推荐说明：{{curGoodsInfo.reason}}</text>
+    </view>
+    <text selectable='true' class='buyText'>{{buyText}}</text>
+    <button class='buyButton' bindtap='buy'>买 买 买</button>
+    <button class='nextButton' bindtap='next'>过 过 过</button>
+  </view>
+</view>

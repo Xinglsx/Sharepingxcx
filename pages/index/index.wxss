@@ -1,0 +1,60 @@
+/**index.wxss**/
+.flex-test {
+  height: 10rem;
+  width: 10rem;
+  display: flex;
+  flex-direction: row;
+  background-color: #576b95;
+  align-items: baseline;
+}
+.title{
+  font-size: 18pt;
+}
+.seeView{
+  color:gray;
+  font-size: 8pt;
+  margin: auto;
+  display: flex;
+  max-width: 300px;
+}
+.word{
+  color: #e64340;
+}
+progress{
+  margin-top: 10rpx;
+}
+.btnbuy{
+  width: 100px;
+}
+.goodsImage{
+  margin: auto;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 300px;
+}
+.MainView{
+  margin: auto;
+  display: flex;
+  max-width: 305px;
+  margin-top:5px;
+}
+.buyButton{
+  margin-top:5px;
+  background:#09BB07;
+  color: white;
+  max-width: 305px;
+}
+.nextButton{
+  margin-top:5px;
+  background:#888888;
+  max-width: 305px;
+}
+.buyText{
+  margin: auto;
+  display: flex;
+  margin-top: 5px;
+  max-width: 305px;
+  color: #0046ddfd;
+  background: #f1f2f3;
+}
