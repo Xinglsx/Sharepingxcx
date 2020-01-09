@@ -19,7 +19,7 @@
       <text style='color:blue;'>推荐说明：{{curGoodsInfo.reason}}</text>
     </view>
     <text selectable='true' class='buyText'>{{buyText}}</text>
-    <button class='buyButton' bindtap='buy'>买 买 买</button>
-    <button class='nextButton' bindtap='next'>过 过 过</button>
+    <button class='buyButton' bindtap='buy'>立 即 购 买</button>
+    <button class='nextButton' bindtap='next'>赶 紧 跳 过</button>
   </view>
 </view>
